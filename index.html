@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Krupali Sawant PT | Elite Spine Physiotherapy, Goa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FLOATING BACKGROUND ICONS -->
+<div class="floating-icons" id="floatingIcons" aria-hidden="true"></div>
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <!-- Ambient glow orbs -->
+  <div class="pl-orb pl-orb-1"></div>
+  <div class="pl-orb pl-orb-2"></div>
+  <!-- Sparkle particles (JS-generated) -->
+  <div class="pl-particles" id="plParticles"></div>
+
+  <div class="pl-wrapper">
+    <!-- Logo mark with heartbeat pulse rings -->
+    <div class="pl-logo-mark">
+      <div class="pl-pulse-ring"></div>
+      <div class="pl-pulse-ring pl-pulse-ring-2"></div>
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="18" stroke="#c9a96e" stroke-width="1" opacity="0.6"/>
+        <path d="M20 8 L20 32 M14 14 L26 14 M13 20 L27 20 M14 26 L26 26" stroke="#f0d49a" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <!-- Brand name with shimmer -->
+    <div class="pl-brand">
+      <span class="pl-brand-elite">ELITE</span>
+      <span class="pl-brand-spine">SPINE</span>
+    </div>
+    <div class="pl-tagline">PHYSIOTHERAPY &nbsp;&middot;&nbsp; GOA</div>
+    <!-- Motivational words (staggered) -->
+    <div class="pl-motive">
+      <span>Healing.</span>
+      <span>Strength.</span>
+      <span>Recovery.</span>
+    </div>
+    <!-- Progress bar -->
+    <div class="pl-progress-bar"><div class="pl-progress-fill"></div></div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="p1.jpeg" alt="Elite Spine Logo" class="logo-img">
+      <span class="logo-text">Elite<span>Spine</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#videos" class="nav-link">Videos</a></li>
+      <li><a href="#booking" class="nav-link">Book</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#booking" class="nav-cta-btn">Book Now</a></li>
+    </ul>
+    <div class="hamburger-wrap">
+      <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+        <span class="dt-sun">☀️</span><span class="dt-moon">🌙</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-bg"><img src="p1.jpeg" alt="Elite Spine" class="hero-logo-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge fade-up">🏥 Goa's Premier Physiotherapy Clinic</div>
+    <h1 class="hero-title fade-up">Dr. Krupali<br><em>Sawant PT</em></h1>
+    <p class="hero-sub fade-up">Orthopedic · Sports · Neuro Physiotherapy<br>Dry Needling · Post-Surgical Rehab · Aquatic Therapy</p>
+    <div class="hero-actions fade-up">
+      <a href="#booking" class="btn-primary" onclick="scrollToBooking(event)">📅 Book Appointment</a>
+      <a href="https://wa.me/919022736809" class="btn-ghost" target="_blank">💬 WhatsApp Us</a>
+    </div>
+    <div class="hero-stats fade-up">
+      <div class="stat"><strong class="counter" data-target="1000" data-suffix="+">0</strong><span>Patients Treated</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong class="counter" data-target="5" data-suffix="+">0</strong><span>Years Experience</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong class="counter" data-target="10" data-suffix="+">0</strong><span>Specializations</span></div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint"><span>Scroll</span><div class="scroll-line"></div></div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section-about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="p2.jpeg" alt="Dr. Krupali Sawant" class="about-photo">
+        <div class="about-card-float">
+          <span class="float-icon">🎓</span>
+          <div><strong>Certified Expert</strong><p>Dry Needling & IASTM Specialist</p></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-label">About the Doctor</div>
+        <h2 class="section-title">Healing Through <em>Evidence & Compassion</em></h2>
+        <p>Dr. Krupali Sawant is a dedicated physiotherapist specializing in orthopedic, neurological, and sports rehabilitation. With a patient-first philosophy and evidence-based approach, she helps people recover faster, move better, and live pain-free.</p>
+        <p>From elite athletes to post-surgical recovery, Dr. Krupali brings precision and care to every session — whether at the clinic or your home.</p>
+        <div class="about-highlights">
+          <div class="highlight-item"><span class="hi-icon">⚡</span><span>Certified in Dry Needling Therapy</span></div>
+          <div class="highlight-item"><span class="hi-icon">🏆</span><span>Sports Physio at National-level Tournaments</span></div>
+          <div class="highlight-item"><span class="hi-icon">🏠</span><span>Home Visits Available</span></div>
+          <div class="highlight-item"><span class="hi-icon">🩺</span><span>Pediatric to Geriatric Care</span></div>
+        </div>
+        <a href="#booking" class="btn-primary mt-btn" onclick="scrollToBooking(event)">Book a Consultation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="section-services">
+  <div class="container">
+    <div class="section-label center">What We Treat</div>
+    <h2 class="section-title center">Comprehensive <em>Physiotherapy</em> Services</h2>
+    <div class="services-grid">
+      <div class="service-card" data-delay="0">
+        <div class="sc-icon">🦴</div>
+        <h3>Orthopedic & Musculoskeletal</h3>
+        <ul>
+          <li>All types of pain management</li>
+          <li>Joint, neck & back pain</li>
+          <li>Frozen shoulder / shoulder impingement</li>
+          <li>Pre & post joint replacement rehab</li>
+          <li>Sports injuries (ACL, meniscus, knee)</li>
+          <li>Ligament sprain & muscle strain</li>
+        </ul>
+        <a href="#booking" class="sc-btn" onclick="scrollToBooking(event)">Book Session →</a>
+      </div>
+      <div class="service-card featured" data-delay="100">
+        <div class="sc-badge">Most Booked</div>
+        <div class="sc-icon">🧠</div>
+        <h3>Neurological Physiotherapy</h3>
+        <ul>
+          <li>Stroke rehabilitation</li>
+          <li>Spinal cord injury</li>
+          <li>Parkinson's disease</li>
+          <li>Balance issues & vertigo</li>
+          <li>Nerve injury & ataxia</li>
+          <li>Pediatric neurological conditions</li>
+        </ul>
+        <a href="#booking" class="sc-btn" onclick="scrollToBooking(event)">Book Session →</a>
+      </div>
+      <div class="service-card" data-delay="200">
+        <div class="sc-icon">⚡</div>
+        <h3>Specialized Therapies</h3>
+        <ul>
+          <li>Dry Needling Therapy</li>
+          <li>Dry Cupping Therapy</li>
+          <li>IASTM (Soft Tissue Mobilization)</li>
+          <li>Therapeutic Sports Taping</li>
+          <li>Electrotherapy</li>
+          <li>Post-cardiac exercise prescription</li>
+        </ul>
+        <a href="#booking" class="sc-btn" onclick="scrollToBooking(event)">Book Session →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FIRST VISIT TIMELINE -->
+<section class="section-timeline">
+  <div class="container">
+    <div class="section-label center">What to Expect</div>
+    <h2 class="section-title center">Your First <em>Visit</em></h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="tl-number">01</div>
+        <div class="tl-content"><h4>Book via WhatsApp</h4><p>Select your date & time on this page. Your WhatsApp opens with a pre-filled message — just hit send!</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-number">02</div>
+        <div class="tl-content"><h4>Confirmation in Minutes</h4><p>Dr. Krupali confirms your slot quickly. You'll get the clinic address and any prep instructions.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-number">03</div>
+        <div class="tl-content"><h4>Assessment & Diagnosis</h4><p>A thorough assessment of your condition, medical history, and goals. Wear comfortable clothing.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-number">04</div>
+        <div class="tl-content"><h4>Personalized Treatment</h4><p>Your first hands-on session begins — manual therapy, electrotherapy, needling, or exercises based on your needs.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-number">05</div>
+        <div class="tl-content"><h4>Recovery Plan</h4><p>Leave with a clear plan — session frequency, home exercises, and a realistic timeline for your recovery.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section-testimonials" id="reviews">
+  <div class="container">
+    <div class="section-label center">Patient Stories</div>
+    <h2 class="section-title center">Trusted by <em>Our Patients</em></h2>
+
+    <!-- Google Maps Rating Banner -->
+    <div class="google-rating-banner">
+      <div class="grb-logo">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+        </svg>
+        <span>Google Reviews</span>
+      </div>
+      <div class="grb-divider"></div>
+      <div class="grb-score">
+        <span class="grb-num">5.0</span>
+        <div class="grb-stars-wrap">
+          <div class="grb-stars">★★★★★</div>
+          <div class="grb-count">Based on Google Maps reviews</div>
+        </div>
+      </div>
+      <div class="grb-divider"></div>
+      <a href="https://maps.app.goo.gl/XhMFHsvDzW13paGz5" target="_blank" rel="noopener" class="grb-cta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        Leave a Review
+      </a>
+    </div>
+
+    <div id="reviewsLoading" class="reviews-loading">
+      <div class="reviews-spinner"></div>
+      <p>Loading patient reviews…</p>
+    </div>
+    <div class="testimonial-track-wrap" id="reviewsWrap" style="display:none">
+      <div class="testimonial-track" id="testimonialTrack"></div>
+    </div>
+    <div id="noReviewsMsg" style="display:none; text-align:center; padding:32px 0; color:var(--muted); font-size:0.95rem;">
+      Be the first to leave a review! ⭐
+    </div>
+
+    <!-- Carousel Controls -->
+    <div class="carousel-nav">
+      <button class="carousel-arrow" id="carouselPrev" aria-label="Previous reviews">&larr;</button>
+      <div class="testimonial-dots" id="testimonialDots"></div>
+      <button class="carousel-arrow" id="carouselNext" aria-label="Next reviews">&rarr;</button>
+    </div>
+
+    <!-- Write a Review -->
+    <div class="write-review-wrap">
+      <div class="wr-header">
+        <div>
+          <h3>Share Your Experience</h3>
+          <p>Had a session with Dr. Krupali? Your review helps others find the right care.</p>
+        </div>
+        <button class="wr-toggle-btn" id="wrToggle">✍️ Write a Review</button>
+      </div>
+      <div class="wr-form-wrap" id="wrFormWrap">
+        <form class="wr-form" id="reviewForm">
+          <div class="wr-row">
+            <div class="form-field">
+              <label>Your Name <span style="color:var(--teal)">*</span></label>
+              <input type="text" id="rvName" placeholder="e.g. Rohit M." required maxlength="60">
+            </div>
+            <div class="form-field">
+              <label>Location <span class="optional">(optional)</span></label>
+              <input type="text" id="rvLocation" placeholder="e.g. Panaji, Goa" maxlength="60">
+            </div>
+          </div>
+          <div class="form-field">
+            <label>Condition Treated <span class="optional">(optional)</span></label>
+            <input type="text" id="rvCondition" placeholder="e.g. Back Pain, ACL Rehab…" maxlength="80">
+          </div>
+          <div class="form-field">
+            <label>Your Rating <span style="color:var(--teal)">*</span></label>
+            <div class="star-picker" id="starPicker">
+              <span class="star-pick" data-val="1">★</span>
+              <span class="star-pick" data-val="2">★</span>
+              <span class="star-pick" data-val="3">★</span>
+              <span class="star-pick" data-val="4">★</span>
+              <span class="star-pick" data-val="5">★</span>
+            </div>
+            <input type="hidden" id="rvRating" value="">
+          </div>
+          <div class="form-field">
+            <label>Your Review <span style="color:var(--teal)">*</span></label>
+            <textarea id="rvText" rows="4" placeholder="Tell others about your experience with Dr. Krupali…" required maxlength="500"></textarea>
+            <small class="field-note"><span id="rvCharCount">0</span>/500 characters</small>
+          </div>
+          <div class="wr-actions">
+            <button type="button" class="wr-cancel" id="wrCancel">Cancel</button>
+            <button type="submit" class="btn-primary" id="rvSubmitBtn">
+              <span id="rvBtnText">Submit Review</span>
+            </button>
+          </div>
+          <p class="form-disclaimer">Reviews are moderated before appearing publicly. Thank you for your feedback!</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section-faq">
+  <div class="container">
+    <div class="section-label center">Common Questions</div>
+    <h2 class="section-title center">Frequently Asked <em>Questions</em></h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">How many sessions will I need? <span class="faq-arrow">›</span></button>
+        <div class="faq-a"><p>It depends on your condition and severity. Acute conditions may resolve in 4–6 sessions, while chronic or neurological conditions may need 12–20+ sessions. Dr. Krupali will give you a realistic timeline after your first assessment.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What should I wear to my appointment? <span class="faq-arrow">›</span></button>
+        <div class="faq-a"><p>Wear loose, comfortable clothing that allows easy access to the affected area. For knee or leg conditions, wear or bring shorts. For shoulder or back issues, a loose t-shirt or sports top works best.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you do home visits? <span class="faq-arrow">›</span></button>
+        <div class="faq-a"><p>Yes! Home visits are available for patients who cannot travel — including post-surgical, elderly, or neurological patients. WhatsApp us to arrange a home visit session.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is dry needling painful? <span class="faq-arrow">›</span></button>
+        <div class="faq-a"><p>Most patients feel a brief muscle twitch or dull ache when the needle hits a trigger point — this is normal and a sign it's working. The sensation passes quickly and most people feel significant relief after the session.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you accept insurance? <span class="faq-arrow">›</span></button>
+        <div class="faq-a"><p>Currently we operate on a direct-pay basis. We can provide receipts and treatment documentation that you may submit to your insurance provider for reimbursement depending on your policy.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How do I book an appointment? <span class="faq-arrow">›</span></button>
+        <div class="faq-a"><p>Simply use the booking form on this page — select your date and time slot, then hit "Confirm via WhatsApp". Your WhatsApp will open with all details pre-filled. Dr. Krupali will confirm within minutes!</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section-gallery">
+  <div class="container">
+    <div class="section-label center">In Action</div>
+    <h2 class="section-title center">Clinic <em>Gallery</em></h2>
+  </div>
+
+  <div class="gallery-slider-wrap">
+    <div class="gallery-slider" id="gallerySlider">
+      <div class="gs-slide"><img src="p12.jpeg" alt="Manual Therapy" loading="lazy"><div class="gs-caption">Manual Therapy</div></div>
+      <div class="gs-slide"><img src="p6.jpg"   alt="Dry Needling" loading="lazy"><div class="gs-caption">Dry Needling</div></div>
+      <div class="gs-slide"><img src="p3.jpeg"  alt="Dry Cupping" loading="lazy"><div class="gs-caption">Dry Cupping</div></div>
+      <div class="gs-slide"><img src="p10.jpeg" alt="Sports Taping" loading="lazy"><div class="gs-caption">Therapeutic Taping</div></div>
+      <div class="gs-slide"><img src="p9.jpeg"  alt="Joint Mobilization" loading="lazy"><div class="gs-caption">Joint Mobilization</div></div>
+      <div class="gs-slide"><img src="p5.jpeg"  alt="Electrotherapy" loading="lazy"><div class="gs-caption">Electrotherapy</div></div>
+      <div class="gs-slide"><img src="p8.jpg"   alt="Precision Needling" loading="lazy"><div class="gs-caption">Precision Needling</div></div>
+      <div class="gs-slide"><img src="p7.jpg"   alt="Sports Physio" loading="lazy"><div class="gs-caption">Sports Physio</div></div>
+      <div class="gs-slide"><img src="p11.jpeg" alt="Shoulder Taping" loading="lazy"><div class="gs-caption">Shoulder Taping</div></div>
+      <div class="gs-slide"><img src="p13.jpg"  alt="Certification" loading="lazy"><div class="gs-caption">Certified Expert</div></div>
+      <div class="gs-slide"><img src="p14.jpeg" alt="Sports Team" loading="lazy"><div class="gs-caption">Sports Medicine</div></div>
+      <div class="gs-slide"><img src="p15.jpeg" alt="Award" loading="lazy"><div class="gs-caption">Award Recognition</div></div>
+      <div class="gs-slide"><img src="p16.jpeg" alt="Rehab Exercise" loading="lazy"><div class="gs-caption">Rehab Exercise</div></div>
+    </div>
+
+    <button class="gs-arrow gs-prev" id="gsPrev" aria-label="Previous">&#8249;</button>
+    <button class="gs-arrow gs-next" id="gsNext" aria-label="Next">&#8250;</button>
+
+    <div class="gs-dots" id="gsDots"></div>
+    <div class="gs-counter" id="gsCounter">1 / 13</div>
+  </div>
+</section>
+
+<!-- VIDEO GALLERY SLIDER -->
+<section id="videos" class="section-videos">
+  <div class="container">
+    <div class="section-label center">In Motion</div>
+    <h2 class="section-title center">Treatment <em>Videos</em></h2>
+    <p class="section-sub center">Watch our specialists in action — real sessions, real results.</p>
+  </div>
+
+  <div class="video-slider-wrap">
+    <div class="video-slider" id="videoSlider">
+      <div class="vs-slide">
+        <video controls preload="metadata" playsinline>
+          <source src="p17.mp4" type="video/mp4">
+        </video>
+        <div class="vs-caption">▶ Therapy Session</div>
+      </div>
+      <div class="vs-slide">
+        <video controls preload="metadata" playsinline>
+          <source src="p18.mp4" type="video/mp4">
+        </video>
+        <div class="vs-caption">▶ Patient Recovery</div>
+      </div>
+      <div class="vs-slide">
+        <video controls preload="metadata" playsinline>
+          <source src="p19.mp4" type="video/mp4">
+        </video>
+        <div class="vs-caption">▶ Rehabilitation</div>
+      </div>
+      <div class="vs-slide">
+        <video controls preload="metadata" playsinline>
+          <source src="p20.mp4" type="video/mp4">
+        </video>
+        <div class="vs-caption">▶ Exercise Therapy</div>
+      </div>
+      <div class="vs-slide">
+        <video controls preload="metadata" playsinline>
+          <source src="p21.mp4" type="video/mp4">
+        </video>
+        <div class="vs-caption">▶ Full Treatment Walkthrough</div>
+      </div>
+    </div>
+
+    <button class="vs-arrow vs-prev" id="vsPrev" aria-label="Previous Video">&#8249;</button>
+    <button class="vs-arrow vs-next" id="vsNext" aria-label="Next Video">&#8250;</button>
+
+    <div class="vs-dots" id="vsDots"></div>
+    <div class="vs-counter" id="vsCounter">1 / 5</div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="section-booking">
+  <div class="container">
+    <div class="booking-wrap">
+      <div class="booking-info">
+        <div class="section-label">Easy Booking</div>
+        <h2 class="section-title">Book Your <em>Appointment</em></h2>
+        <p>Select your preferred date and time slot, then confirm instantly via WhatsApp. We'll respond within minutes!</p>
+        <div class="booking-features">
+          <div class="bf-item"><span>⚡</span> Instant WhatsApp Confirmation</div>
+          <div class="bf-item"><span>🕐</span> Mon–Sat: 9AM – 8PM</div>
+          <div class="bf-item"><span>🌙</span> Sunday: 9AM – 10PM</div>
+          <div class="bf-item"><span>🏠</span> Home Visits on Request</div>
+        </div>
+        <div class="booking-contact-quick">
+          <a href="tel:+919022736809" class="bq-link">📞 +91 90227 36809</a>
+          <a href="https://wa.me/919022736809" class="bq-link" target="_blank">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="booking-form-wrap">
+        <form id="bookingForm" class="booking-form">
+          <div class="form-header">
+            <div class="form-logo">
+              <img src="p1.jpeg" alt="Elite Spine" class="form-logo-img">
+              <div><strong>Elite Spine</strong><span>Physiotherapy Clinic</span></div>
+            </div>
+          </div>
+          <div class="form-field">
+            <label>Your Name</label>
+            <input type="text" id="patientName" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-field">
+            <label>Select Date</label>
+            <input type="date" id="date" required>
+            <small class="field-note">Mon–Sat: 9AM–8PM &nbsp;•&nbsp; Sunday: 9AM–10PM</small>
+          </div>
+          <div class="form-field">
+            <label>Select Time Slot</label>
+            <div id="slots" class="slots-grid"></div>
+            <input type="hidden" id="time" required>
+          </div>
+          <div class="form-field">
+            <label>Reason for Visit <span class="optional">(optional)</span></label>
+            <select id="reason">
+              <option value="">Select a reason...</option>
+              <option>Back / Neck Pain</option>
+              <option>Joint Pain</option>
+              <option>Sports Injury</option>
+              <option>Post-Surgery Rehab</option>
+              <option>Dry Needling / Cupping</option>
+              <option>Neurological Condition</option>
+              <option>Home Visit</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Confirm via WhatsApp
+          </button>
+          <p class="form-disclaimer">You'll be redirected to WhatsApp to confirm your slot. We respond within minutes.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-contact">
+  <div class="container">
+    <div class="section-label center">Find Us</div>
+    <h2 class="section-title center">Get In <em>Touch</em></h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="cc-icon">📍</div>
+        <h4>Location</h4>
+        <p>Bagliwada, opposite Lokmanya Multipurpose Co-operative Society, 1st Floor, Agarwada, Pernem, Goa</p>
+        <a href="https://maps.app.goo.gl/jGxqsi9sqMEmYNrU6?g_st=ic" target="_blank" class="cc-link">View on Maps →</a>
+      </div>
+      <div class="contact-card">
+        <div class="cc-icon">📞</div>
+        <h4>Call / WhatsApp</h4>
+        <p>Available during clinic hours for appointments and queries</p>
+        <a href="tel:+919022736809" class="cc-link">+91 90227 36809</a>
+      </div>
+      <div class="contact-card">
+        <div class="cc-icon">📧</div>
+        <h4>Email</h4>
+        <p>For detailed queries or referrals, drop us a mail</p>
+        <a href="mailto:elitespinegoa@gmail.com" class="cc-link">elitespinegoa@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <div class="cc-icon">📸</div>
+        <h4>Instagram</h4>
+        <p>Follow us for health tips, patient stories, and clinic updates</p>
+        <a href="https://www.instagram.com/elitespine_goa?igsh=MWNib3hjcHA0ejhwZw==" target="_blank" class="cc-link">@elitespine_goa →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="p1.jpeg" alt="Elite Spine" class="footer-logo">
+      <div><strong>Elite Spine</strong><p>Dr. Krupali Sawant PT</p></div>
+    </div>
+    <p class="footer-copy">© 2025 Dr. Krupali Sawant Physiotherapy. All Rights Reserved. Pernem, Goa.</p>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/elitespine_goa?igsh=MWNib3hjcHA0ejhwZw==" target="_blank">Instagram</a>
+      <a href="https://wa.me/919022736809" target="_blank">WhatsApp</a>
+      <a href="mailto:elitespinegoa@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<a class="fab-wa" href="https://wa.me/919022736809" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="fab-pulse"></span>
+</a>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
